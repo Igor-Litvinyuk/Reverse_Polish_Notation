@@ -4,6 +4,7 @@ public class ExpressionParser {
     private static String operators = "+-*/^";
     private static String delimiters = "() " + operators;
     public static boolean flag = true;
+
     private static boolean isDelimiter(String token) {
         if (token.length() != 1) return false;
         for (int i = 0; i < delimiters.length(); i++) {
