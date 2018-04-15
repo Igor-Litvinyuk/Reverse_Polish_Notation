@@ -7,7 +7,7 @@ import java.util.List;
 public class Transformation {
 
     public static void main (String[] args){
-        ArrayList<String> expressionsList = new ArrayList<>();
+        List<String> expressionsList = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int expressionLength = 400;
         int expressionNumber = 100;
